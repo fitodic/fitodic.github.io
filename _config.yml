@@ -16,7 +16,7 @@
 title: fitodic's blog
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Copyright 2019-present by Filip Todić.
+  Copyright (c) 2019 Filip Todić.
   Content licensed under the Creative Commons Attribution-NonCommercial-ShareAlike licence.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "fitodic.github.io" # the base hostname & protocol for your site, e.g. http://example.com
