@@ -20,8 +20,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   Content licensed under the Creative Commons Attribution-NonCommercial-ShareAlike licence.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "fitodic.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: fitodic
 github_username:  fitodic
+linkedin_username: fitodic
+twitter_username: fitodic
 
 # Build settings
 markdown: kramdown
