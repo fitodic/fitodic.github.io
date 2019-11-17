@@ -29,7 +29,7 @@ As it turns out, there is. Consider the case we've described above. If we use a 
 
 ### Services that provide cache
 
-Sound great, but you may be asking yourself how can you implement it? If you are using a database, such as PostgreSQL, you are already using it via [`shared_buffers`](https://www.postgresql.org/docs/current/runtime-config-resource.html#GUC-SHARED-BUFFERS). This setting tells PostgreSQL the amount of memory it has at its disposal for caching data. The defaults are pretty conservative, as are some of its other settings, so you may want to [tune it](https://wiki.postgresql.org/wiki/Tuning_Your_PostgreSQL_Server), depending on your needs and available resources.
+Sounds great, but you may be asking yourself how can you implement it? If you are using a database, such as PostgreSQL, you are already using it via [`shared_buffers`](https://www.postgresql.org/docs/current/runtime-config-resource.html#GUC-SHARED-BUFFERS). This setting tells PostgreSQL the amount of memory it has at its disposal for caching data. The defaults are pretty conservative, as are some of its other settings, so you may want to [tune it](https://wiki.postgresql.org/wiki/Tuning_Your_PostgreSQL_Server), depending on your needs and available resources.
 
 Apart from the database itself, there are services that are dedicated to caching data. [`memcached`](https://www.memcached.org/) and [`redis`](https://redis.io/) are two popular options, but there are many more. They are oftentimes key-value storages where you can store the results of database calls, results of computations or even entire rendered pages. Most programming languages and Web frameworks have libraries and interfaces to interact with them so you don't have to reinvent the wheel. For example, [Django has an entire section dedicated to cache](https://docs.djangoproject.com/en/dev/topics/cache/).
 
@@ -96,7 +96,6 @@ That covers data retrieval, but the `ETag` header is also useful when updating r
 
 Caching is a broad subject and this post is intended to give you a high-level overview of its application in Web development. This post includes a couple of examples, but there are certainly many more, from code snippets to HTTP headers that can be used as well (e.g. [`Last-Modified`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Last-Modified)). If you want to get into more details, there are references to other resources that go into more practical details, especially from the [Mozilla Developer Network](https://developer.mozilla.org/en-US/) and the [Django](https://www.djangoproject.com/) Web framework, both of them being excellent sources for further reading.
 
-There are
 
 ## Resources
 
