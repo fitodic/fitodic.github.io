@@ -43,3 +43,4 @@ plugins:
 #   - vendor/ruby/
 
 show_excerpts: true
+google_analytics: UA-156960842-1
