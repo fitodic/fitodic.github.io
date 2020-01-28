@@ -14,4 +14,4 @@ I liked it so much that I decided to pursue a master's degree in Geoinformatics.
 
 The algorithm and the results of that project won the [rector's award](https://bib.irb.hr/prikazi-rad?rad=713523) and were [published in Elsevier](https://www.sciencedirect.com/science/article/pii/S0968090X16300079). For a brief moment I considered starting a career in academia, but in the end decided to pursue one in the IT industry instead.
 
-Since then I've been mostly working as a backend developer on large scale systems, ranging from the cadastral system, news publishing industry to IoT.
+Since then I've been mostly working as a backend developer on large scale systems, ranging from the cadastral system, news publishing industry to IoT. During this period I was mostly focused on improving performance of high-traffic sites, automating various procedures ranging from testing to deployment, and reviving legacy systems.
