@@ -14,4 +14,6 @@ I liked it so much that I decided to pursue a master's degree in Geoinformatics.
 
 The algorithm and the results of that project won the [rector's award](https://bib.irb.hr/prikazi-rad?rad=713523) and were [published in Elsevier](https://www.sciencedirect.com/science/article/pii/S0968090X16300079). For a brief moment I considered starting a career in academia, but in the end decided to pursue one in the IT industry instead.
 
-Since then I've been mostly working as a backend developer on large scale systems, ranging from the cadastral system, news publishing industry to IoT. During this period I was mostly focused on improving performance of high-traffic sites, automating various procedures ranging from testing to deployment, and reviving legacy systems.
+Since then I've been working primarily as a backend developer on systems of various scale, ranging from the cadastral system, news publishing industry to IoT. During this period I was mostly focused on improving performance of high-traffic sites, automation of various development workflows, and reviving legacy systems.
+
+I'm really interested in Web technologies, but what I love most is watching machines doing the work for me. There are also a couple of open-source projects I maintain when I find the time, notably [centerline](https://github.com/fitodic/centerline) and [django-rest-framework-jwt](https://github.com/Styria-Digital/django-rest-framework-jwt).
