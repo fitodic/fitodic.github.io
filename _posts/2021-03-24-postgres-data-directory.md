@@ -7,8 +7,6 @@ tags: beginners tutorial linux database
 permalink: change-postgresql-data-directory
 ---
 
-# Background
-
 There comes a time when you have to restore a relatively large database locally. Most likely, you've partitioned your disk, and your `root` partition got the thick end of it, 50 GB if you were generous. Let's assume that that's not nearly enough for the database you're about to restore. At the same time, your `/home` partition got the rest of the disk space you had available.
 
 You can always resize these two partitions, but then you would have back up your `/home` directory, unmount it or find a Live USB and tamper with them. If you don't have the time, or the desire, or even a backup disc, you can always change the location where `postgresql` stores its data.
