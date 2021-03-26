@@ -11,7 +11,7 @@ There comes a time when you have to restore a relatively large database locally.
 
 You can always resize these two partitions, but then you would have back up your `/home` directory, unmount it or find a Live USB and tamper with them. If you don't have the time, or the desire, or even a backup disc, you can always change the location where `postgresql` stores its data.
 
-The following instructions are a love letter to all those lost soles who find themselves in this situation and forget to check the status of SELinux, as well as to my future self who'll most likely have to do it again. Considering this is mostly a dump of my bash history that has everything and anything, I hope this exact procedure works for you. If not, feel free to contact me and we'll update it together.
+The following instructions are a love letter to all those lost souls who find themselves in this situation and forget to check the status of SELinux, as well as to my future self who'll most likely have to do it again. Considering this is mostly a dump of my bash history that has everything and anything, I hope this exact procedure works for you. If not, feel free to contact me and we'll update it together.
 
 # Procedure
 
