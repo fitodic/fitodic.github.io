@@ -4,14 +4,14 @@ title: "How to change PostgreSQL's data directory on Linux"
 date: 2021-03-25 17:23:00 +0100
 categories: development
 tags: beginners tutorial linux database
-permalink: change-postgresql-data-directory
+permalink: how-to-change-postgresql-data-directory-on-linux
 ---
 
 There comes a time when you have to restore a relatively large database locally. Most likely, you've partitioned your disk, and your `root` partition got the thick end of it, 50 GB if you were generous. Let's assume that that's not nearly enough for the database you're about to restore. At the same time, your `/home` partition got the rest of the disk space you had available.
 
 You can always resize these two partitions, but then you would have back up your `/home` directory, unmount it or find a Live USB and tamper with them. If you don't have the time, or the desire, or even a backup disc, you can always change the location where `postgresql` stores its data.
 
-The following instructions are a love letter to all those lost soles who find themselves in this situation, as well as to my future self who'll most likely have to do it again. And since I always forget to check the status of SELinux, it's better to write this down. Considering this is mostly a dump of my bash history that has everything and anything, I hope this exact procedure works for you. If not, feel free to contact me and we'll update it together.
+The following instructions are a love letter to all those lost soles who find themselves in this situation and forget to check the status of SELinux, as well as to my future self who'll most likely have to do it again. Considering this is mostly a dump of my bash history that has everything and anything, I hope this exact procedure works for you. If not, feel free to contact me and we'll update it together.
 
 # Procedure
 
